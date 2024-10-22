@@ -1,0 +1,5740 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8d4df75a-637c-4bab-a741-c3c387f9230d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74HC541D:74HC541D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "74HC541D"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P1030X250-20N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/74HC541D_datasheet_en_20201117.pdf?did=37230&prodName=74HC541D"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buffers & Line Drivers Pb-F CMOS LOGIC IC SERIES SOIC14 Inverter Gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.5"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Toshiba"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "74HC541D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "757-74HC541D"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/74HC541D?qs=7EBvPakHacWokHt5eISKKA%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "74HC541D"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74hc541d/toshiba?region=nac"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "74HC541D_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~{G1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -22.86 180)
+					(length 5.08)
+					(name "Y8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -20.32 180)
+					(length 5.08)
+					(name "Y7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -17.78 180)
+					(length 5.08)
+					(name "Y6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -15.24 180)
+					(length 5.08)
+					(name "Y5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "Y4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "Y2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "~{G2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at -3.81 3.175 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -1.27 3.175 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TASTE_GROSS_1_0"
+				(polyline
+					(pts
+						(xy -5.08 1.905) (xy -3.81 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.905) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -0.762) (xy 0.254 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.175) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.905) (xy 1.27 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TASTE_GROSS_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at -3.81 3.175 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -1.27 3.175 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TASTE_GROSS_1_1_0"
+				(polyline
+					(pts
+						(xy -5.08 1.905) (xy -3.81 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.905) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -0.762) (xy 0.254 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.175) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.905) (xy 1.27 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 115.57 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a7de8a7-4f27-4021-88d1-2b4238842959")
+	)
+	(junction
+		(at 92.71 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18526b7b-575c-4d3d-b08f-9b7b9a4d282c")
+	)
+	(junction
+		(at 46.99 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19745edb-d93f-4b8a-aa40-4cab20f6b13a")
+	)
+	(junction
+		(at 72.39 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b48df0d-d2e9-4666-bcae-7d7ec3e0bfea")
+	)
+	(junction
+		(at 49.53 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cf3878c-6de5-44ba-8135-39e0f5590762")
+	)
+	(junction
+		(at 72.39 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e07756b-8127-41c9-9e16-e5d069173c08")
+	)
+	(junction
+		(at 142.24 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ee93cc3-2dce-4343-a1ae-4fdc6fb9930a")
+	)
+	(junction
+		(at 118.11 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "400be98a-f9d3-4937-9976-cf0acedbd709")
+	)
+	(junction
+		(at 49.53 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59995c14-1e8f-4e8b-9416-88663929e7f9")
+	)
+	(junction
+		(at 46.99 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f83ee29-47fc-404d-9045-e46668ff32a6")
+	)
+	(junction
+		(at 72.39 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66dafeac-7b38-4bdd-b083-710a8bc409d9")
+	)
+	(junction
+		(at 69.85 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a882226-b59d-4d0b-9d39-56f61224ada4")
+	)
+	(junction
+		(at 142.24 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ac008f9-ed44-4c1b-9fdf-b1484362af1e")
+	)
+	(junction
+		(at 92.71 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83d9f2a7-7b06-45cd-aebf-f854722f1dd7")
+	)
+	(junction
+		(at 46.99 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86d4b6e6-4037-4579-bd1e-a28f40ba0df8")
+	)
+	(junction
+		(at 95.25 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e4f23ad-3ac8-4e4b-8504-b65d0832c840")
+	)
+	(junction
+		(at 115.57 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "951754fc-02cd-422e-858e-e21059403d04")
+	)
+	(junction
+		(at 92.71 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97194ca4-04bd-4fae-b2c3-dac57d806eb8")
+	)
+	(junction
+		(at 142.24 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "973086fb-404c-4c65-9289-f06979cb329b")
+	)
+	(junction
+		(at 46.99 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9751f55b-1d31-441d-8f84-2d45f9f83de1")
+	)
+	(junction
+		(at 118.11 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9769439e-432a-4722-9cb9-92b02f0c76b8")
+	)
+	(junction
+		(at 139.7 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98bdaa73-15e2-435b-8abc-6be538bf7d46")
+	)
+	(junction
+		(at 115.57 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f216a95-9b84-4a03-8dd2-9f82e3ae3de8")
+	)
+	(junction
+		(at 139.7 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f2b0538-1295-42fc-8ae3-299881bd47b5")
+	)
+	(junction
+		(at 95.25 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3881a58-c22d-49a4-8b14-448e830770df")
+	)
+	(junction
+		(at 139.7 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a76c1ece-6484-44f2-9a41-c95c34de9089")
+	)
+	(junction
+		(at 69.85 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b06b587c-c9bb-4149-ab0b-8d95d69652cc")
+	)
+	(junction
+		(at 49.53 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5137648-b740-4d7d-ba9e-e3ca0b7d024f")
+	)
+	(junction
+		(at 118.11 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9e8f167-1aad-41be-b8aa-cfc3155ad33e")
+	)
+	(junction
+		(at 69.85 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0f90f7c-40f5-416b-9a78-800a470b38fd")
+	)
+	(junction
+		(at 95.25 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d02b23f9-683b-40ea-81ce-ce21881d4292")
+	)
+	(junction
+		(at 49.53 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec34284d-06c4-4d86-907c-7711f8b70121")
+	)
+	(no_connect
+		(at 212.09 96.52)
+		(uuid "01be9d8c-f6f0-4ade-9d36-89d5fb562ab3")
+	)
+	(no_connect
+		(at 237.49 99.06)
+		(uuid "02b77052-a8c9-40cf-b202-577d6414f4a3")
+	)
+	(no_connect
+		(at 212.09 99.06)
+		(uuid "485e7ea3-5e41-41a4-bc9a-b6a14672884b")
+	)
+	(no_connect
+		(at 237.49 96.52)
+		(uuid "5a7312e8-026b-4caf-912e-207a9ee7e8bd")
+	)
+	(no_connect
+		(at 212.09 93.98)
+		(uuid "dec4bac9-9e37-4e3d-9a00-789cf76070a3")
+	)
+	(no_connect
+		(at 237.49 101.6)
+		(uuid "ef3e5bcb-4401-4f77-8e5a-72edb8b4f9d5")
+	)
+	(wire
+		(pts
+			(xy 237.49 91.44) (xy 242.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0297e670-2f09-45a1-9bc0-5b55fdecb71a")
+	)
+	(wire
+		(pts
+			(xy 118.11 49.53) (xy 118.11 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d0c2f4-d592-4686-bea0-d1a2e74620f6")
+	)
+	(wire
+		(pts
+			(xy 118.11 115.57) (xy 118.11 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cb3259-89ad-4abd-93a9-c8dbb6deae23")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 118.11 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b513508-f200-4fba-b3dd-ec787aa1a5ee")
+	)
+	(wire
+		(pts
+			(xy 139.7 64.77) (xy 139.7 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b814478-c625-4874-8547-bcc813aaa075")
+	)
+	(wire
+		(pts
+			(xy 129.54 87.63) (xy 129.54 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b8e85cb-b4c4-49f1-90a6-e5831388a565")
+	)
+	(wire
+		(pts
+			(xy 36.83 64.77) (xy 36.83 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0c2b27bd-7bee-479e-8d0f-6368ea2ce7c9")
+	)
+	(wire
+		(pts
+			(xy 92.71 115.57) (xy 95.25 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0d7d2b2e-3f13-46de-ba5a-6e14124f5366")
+	)
+	(wire
+		(pts
+			(xy 237.49 88.9) (xy 242.57 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6c7e3b-460b-4736-b947-44c39f2f8d1e")
+	)
+	(wire
+		(pts
+			(xy 92.71 115.57) (xy 92.71 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "12103da8-3fbc-4007-bed2-f7dfbb137fe0")
+	)
+	(wire
+		(pts
+			(xy 46.99 92.71) (xy 46.99 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1422e270-6f62-4cbc-ad82-c266ee59e0ba")
+	)
+	(wire
+		(pts
+			(xy 46.99 87.63) (xy 46.99 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1d225c8f-4923-483e-8c10-562885f54b50")
+	)
+	(wire
+		(pts
+			(xy 69.85 110.49) (xy 69.85 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1d3149a2-f196-403d-a71c-af04d0fa514f")
+	)
+	(wire
+		(pts
+			(xy 115.57 64.77) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ddd872e-aaa9-4c6a-ad56-67797efe51d9")
+	)
+	(wire
+		(pts
+			(xy 36.83 87.63) (xy 36.83 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1f0f551a-f475-49b1-9c56-b6e549cc8fd9")
+	)
+	(wire
+		(pts
+			(xy 139.7 115.57) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ffa7412-4e43-4ee6-a47e-6409bf769978")
+	)
+	(wire
+		(pts
+			(xy 92.71 87.63) (xy 92.71 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "23ebadca-eb4f-42f5-ab7e-d46b39b4bca5")
+	)
+	(wire
+		(pts
+			(xy 92.71 69.85) (xy 95.25 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "282fa620-de86-4ebb-92c5-8ba1957d94e3")
+	)
+	(wire
+		(pts
+			(xy 82.55 110.49) (xy 82.55 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "287f4853-8625-4c41-bcc3-0e92112249f4")
+	)
+	(wire
+		(pts
+			(xy 237.49 93.98) (xy 242.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29afffe3-dbd6-4780-acef-daf20c9bcb88")
+	)
+	(wire
+		(pts
+			(xy 237.49 83.82) (xy 242.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7d8a24-1567-4930-8ac0-9e947470f101")
+	)
+	(wire
+		(pts
+			(xy 49.53 138.43) (xy 49.53 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3032b8aa-153d-41c9-a084-637a30108a9d")
+	)
+	(wire
+		(pts
+			(xy 115.57 92.71) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "385b6c48-d736-4862-b1fd-ffbda77ccb9c")
+	)
+	(wire
+		(pts
+			(xy 69.85 87.63) (xy 69.85 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "391719c8-4775-4aa2-921f-218a4c9bd3b9")
+	)
+	(wire
+		(pts
+			(xy 49.53 49.53) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2b8dba-de03-4a48-a6f9-0a247811553b")
+	)
+	(wire
+		(pts
+			(xy 118.11 92.71) (xy 118.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c23485e-2c1b-4871-8cd6-411650f279af")
+	)
+	(wire
+		(pts
+			(xy 46.99 92.71) (xy 49.53 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "41397442-b87a-4255-aa51-671c2b18d592")
+	)
+	(wire
+		(pts
+			(xy 49.53 92.71) (xy 49.53 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4177e07a-60f3-4c0e-8f93-018d548a4338")
+	)
+	(wire
+		(pts
+			(xy 139.7 110.49) (xy 139.7 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "43051e3d-3097-4dd4-9694-dd0522e5d03e")
+	)
+	(wire
+		(pts
+			(xy 82.55 87.63) (xy 82.55 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "448f103d-775b-4f39-b3c7-c062e1439bb3")
+	)
+	(wire
+		(pts
+			(xy 36.83 110.49) (xy 36.83 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "46a3fa42-0a92-418d-a508-f2340477df1a")
+	)
+	(wire
+		(pts
+			(xy 72.39 115.57) (xy 72.39 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f28447-4d1b-46c2-9558-980737694b35")
+	)
+	(wire
+		(pts
+			(xy 95.25 92.71) (xy 95.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484ab8ff-0e80-4cfd-9f12-542a83fd3845")
+	)
+	(wire
+		(pts
+			(xy 69.85 69.85) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "488c872a-6195-4cae-8876-f40d9554068d")
+	)
+	(wire
+		(pts
+			(xy 69.85 92.71) (xy 69.85 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4d938cba-572c-443a-b2f3-eaf957bf9c56")
+	)
+	(wire
+		(pts
+			(xy 46.99 110.49) (xy 46.99 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "507b4242-4306-462b-a532-04a012ba9a58")
+	)
+	(wire
+		(pts
+			(xy 46.99 138.43) (xy 46.99 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "57377cc2-bfe3-434d-8fea-7e5b83b31095")
+	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 129.54 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "57bffd43-c877-4771-9bb3-24fa2003224e")
+	)
+	(wire
+		(pts
+			(xy 139.7 87.63) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "63143f3f-a09c-4ff0-ad4c-c39f346eeb66")
+	)
+	(wire
+		(pts
+			(xy 105.41 87.63) (xy 105.41 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "63c0f7d4-02f3-4a9d-98bc-9edcbdebb415")
+	)
+	(wire
+		(pts
+			(xy 69.85 69.85) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "64bdb258-22d4-4d17-9a89-67eb122626fb")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 115.57 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6de4cb19-c8ba-4097-a07a-47d0d605fc29")
+	)
+	(wire
+		(pts
+			(xy 139.7 115.57) (xy 139.7 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6ea82ead-22ba-4a7c-9d4c-4fbda0424711")
+	)
+	(wire
+		(pts
+			(xy 139.7 92.71) (xy 139.7 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "70eb18bf-3672-44d1-b3e0-80b13703cd58")
+	)
+	(wire
+		(pts
+			(xy 72.39 92.71) (xy 72.39 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fbcab8-548b-47f8-b571-8467e8bf3f37")
+	)
+	(wire
+		(pts
+			(xy 92.71 92.71) (xy 92.71 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7479a995-6ddc-4932-ab2e-eaffe44fa970")
+	)
+	(wire
+		(pts
+			(xy 69.85 115.57) (xy 69.85 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "75adc299-512f-43b6-bf9f-538750aafc19")
+	)
+	(wire
+		(pts
+			(xy 72.39 49.53) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7871dd7c-dd6d-43d7-9be9-237da71d3617")
+	)
+	(wire
+		(pts
+			(xy 95.25 69.85) (xy 95.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fc8b0a-a93b-4c9e-9d81-fe4049cc34a3")
+	)
+	(wire
+		(pts
+			(xy 82.55 64.77) (xy 82.55 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7ab47054-250c-4864-a307-e0eff22d7e90")
+	)
+	(wire
+		(pts
+			(xy 237.49 86.36) (xy 242.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5299ee-37ef-4b57-996c-1d73c10f8a7e")
+	)
+	(wire
+		(pts
+			(xy 92.71 110.49) (xy 92.71 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "81f19408-7e77-4155-ae01-3d3bfd03c2fc")
+	)
+	(wire
+		(pts
+			(xy 142.24 92.71) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8283fc2a-392f-4ff5-b74b-24d6095d44f3")
+	)
+	(wire
+		(pts
+			(xy 49.53 69.85) (xy 49.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b61b28-e30f-4167-a647-e43190496426")
+	)
+	(wire
+		(pts
+			(xy 129.54 64.77) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "898fefb9-754f-4bb1-98e8-9de3c896d342")
+	)
+	(wire
+		(pts
+			(xy 237.49 81.28) (xy 242.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e02b244-b1fe-495b-9ff6-92659dbd4101")
+	)
+	(wire
+		(pts
+			(xy 105.41 64.77) (xy 105.41 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "919340f3-1ff2-443a-82ac-a204ce86f269")
+	)
+	(wire
+		(pts
+			(xy 46.99 64.77) (xy 46.99 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "93a6d239-37dd-403c-a4fe-be5e45e2196c")
+	)
+	(wire
+		(pts
+			(xy 46.99 69.85) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9415cbb7-7197-4fc7-ac73-8b21107d58ec")
+	)
+	(wire
+		(pts
+			(xy 115.57 92.71) (xy 115.57 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "94f02a3a-047e-4fdb-b082-be03a3168d5e")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 72.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951f5996-4e68-4e10-8225-19a6f25e40fc")
+	)
+	(wire
+		(pts
+			(xy 69.85 64.77) (xy 69.85 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9ad934c8-a4c5-4099-8f99-a2c495e00afa")
+	)
+	(wire
+		(pts
+			(xy 59.69 110.49) (xy 59.69 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9bc6cf2d-a68f-4acf-9fbb-c6ee5dc2e7f7")
+	)
+	(wire
+		(pts
+			(xy 142.24 115.57) (xy 142.24 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cba1644-7e9a-4325-a898-cc8078dd2974")
+	)
+	(wire
+		(pts
+			(xy 49.53 115.57) (xy 49.53 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ca37d2-9154-4c0e-bf94-edc6c80b46d8")
+	)
+	(wire
+		(pts
+			(xy 118.11 69.85) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f5da56-3694-4620-b19d-3b31765764ac")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 212.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab48edb8-6f81-4385-8398-f0edff3867bc")
+	)
+	(wire
+		(pts
+			(xy 115.57 110.49) (xy 115.57 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "af69725c-c611-41ad-b1c2-009c00ad5526")
+	)
+	(wire
+		(pts
+			(xy 69.85 92.71) (xy 72.39 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b4bc6340-fd77-4ec7-a31b-15c360242613")
+	)
+	(wire
+		(pts
+			(xy 142.24 69.85) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6027291-921c-444b-8088-bbb7716d4a9b")
+	)
+	(wire
+		(pts
+			(xy 36.83 133.35) (xy 36.83 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b73a2942-8e57-4f9d-9463-74b6e0d09f85")
+	)
+	(wire
+		(pts
+			(xy 46.99 115.57) (xy 49.53 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bcf3e7ae-f214-4b87-bed7-cc1fdd12d626")
+	)
+	(wire
+		(pts
+			(xy 46.99 138.43) (xy 49.53 138.43)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bd2125a8-2326-4ffa-82a8-ec7751108ffc")
+	)
+	(wire
+		(pts
+			(xy 95.25 49.53) (xy 95.25 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd44930d-97f5-4ccf-8c8b-8ada15834f56")
+	)
+	(wire
+		(pts
+			(xy 115.57 69.85) (xy 118.11 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bd8f3a04-f7d2-446f-8d42-68233b1eb80d")
+	)
+	(wire
+		(pts
+			(xy 139.7 69.85) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "be7c0d1c-b3a0-453b-9db4-46d8560a7372")
+	)
+	(wire
+		(pts
+			(xy 105.41 110.49) (xy 105.41 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bec8f4bf-cce0-4948-865a-959142c7141d")
+	)
+	(wire
+		(pts
+			(xy 240.03 78.74) (xy 237.49 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c028e592-3b25-4691-be7d-fb0ee6981ad5")
+	)
+	(wire
+		(pts
+			(xy 95.25 115.57) (xy 95.25 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1062460-a360-43f9-9aca-6522f01f4aa6")
+	)
+	(wire
+		(pts
+			(xy 69.85 115.57) (xy 72.39 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d1e58872-1012-4084-b8a6-3647e6bef331")
+	)
+	(wire
+		(pts
+			(xy 59.69 64.77) (xy 59.69 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d51a3464-dc42-4567-958b-44e68b7fea9b")
+	)
+	(wire
+		(pts
+			(xy 46.99 115.57) (xy 46.99 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d7965300-0b15-4d3e-bd84-8a8492b23e29")
+	)
+	(wire
+		(pts
+			(xy 115.57 87.63) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d8176da7-140d-4666-b3b9-35972acb7460")
+	)
+	(wire
+		(pts
+			(xy 92.71 69.85) (xy 92.71 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ddde6422-0986-4537-a100-3312fede2c3d")
+	)
+	(wire
+		(pts
+			(xy 92.71 64.77) (xy 92.71 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "df683ca1-d67a-432d-9d41-1249970c6057")
+	)
+	(wire
+		(pts
+			(xy 139.7 92.71) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e315a6d9-fbf8-4f70-80d4-4027dacf78c3")
+	)
+	(wire
+		(pts
+			(xy 139.7 69.85) (xy 139.7 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ea81101c-2ddd-43e3-b474-65080a361799")
+	)
+	(wire
+		(pts
+			(xy 92.71 92.71) (xy 95.25 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ec231748-e826-4403-97cb-5587f3e49346")
+	)
+	(wire
+		(pts
+			(xy 59.69 87.63) (xy 59.69 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f0057a3b-d215-4e19-bd83-ba07f5183e47")
+	)
+	(wire
+		(pts
+			(xy 115.57 69.85) (xy 115.57 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f0655bc0-e006-4bf0-aa80-af485e61f5f0")
+	)
+	(wire
+		(pts
+			(xy 142.24 49.53) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f116e466-2c24-49d1-8672-7de44d1492ac")
+	)
+	(wire
+		(pts
+			(xy 46.99 133.35) (xy 46.99 138.43)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f69a3766-a942-44f3-a1e0-2296bbf2d60f")
+	)
+	(wire
+		(pts
+			(xy 46.99 69.85) (xy 46.99 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fa7c7670-e9b8-493e-8c6f-ff8f1d20a516")
+	)
+	(label "P3"
+		(at 203.2 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "595ba82f-6e0a-49fa-9118-2ad615866e3e")
+	)
+	(label "P3"
+		(at 36.83 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c688770-9802-47c2-a280-e1d418846a74")
+	)
+	(label "K0"
+		(at 49.53 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d3bb4a1-59a3-42f2-a2ee-f4fc6f5d7ff3")
+	)
+	(label "K2"
+		(at 95.25 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c33ddf8-7dd2-4379-92e6-cf7319081c36")
+	)
+	(label "K1"
+		(at 72.39 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d6c45a2-b17d-4b36-ac66-93272e95b544")
+	)
+	(label "K3"
+		(at 118.11 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0212da6-3a12-4318-a7b2-ba5d94172896")
+	)
+	(label "K4"
+		(at 142.24 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e86dbd16-cb33-4e5d-892a-95238ca57b7a")
+	)
+	(global_label "P1"
+		(shape input)
+		(at 212.09 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a77307b-3a99-4901-9211-5159002756c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.6253 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OE"
+		(shape input)
+		(at 212.09 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a6377ed-88e2-4845-bd5d-50297f28b74e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.6253 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K01"
+		(shape output)
+		(at 59.69 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f474cba-4d8b-42d9-aeaf-560f57f49212")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.0158 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K23"
+		(shape output)
+		(at 105.41 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "270b9715-9e02-4522-a242-01504b6fcae3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.7358 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K22"
+		(shape output)
+		(at 82.55 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32cf57c4-a391-47b3-87c8-5041e1210a16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.8758 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K24"
+		(shape output)
+		(at 129.54 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48bd7e5e-4f80-4219-b616-7259f4edf759")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.8658 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K1"
+		(shape bidirectional)
+		(at 242.57 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5337363f-3e26-4935-911d-eb1d7c107e12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.146 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K3"
+		(shape bidirectional)
+		(at 242.57 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a4e80bb-9c18-4f16-af44-3bcfc59ba172")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.146 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P0"
+		(shape input)
+		(at 212.09 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d665220-6c2a-4225-93a9-36cf13a43c2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.6253 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K30"
+		(shape output)
+		(at 36.83 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61900836-03b8-4764-93c3-5c70d3579bf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.1558 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K21"
+		(shape output)
+		(at 59.69 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64b58ada-44c0-40cc-b912-a3ff19204c78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.0158 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K13"
+		(shape output)
+		(at 105.41 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "753fce9f-36c4-4c51-87d0-ecc4d92f2118")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.7358 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K03"
+		(shape output)
+		(at 105.41 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b0a42bd-ca1e-4c51-a494-35f99975ab68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.7358 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K11"
+		(shape output)
+		(at 59.69 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90504481-e379-45f8-aa5e-cacecf93375b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.0158 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K2"
+		(shape bidirectional)
+		(at 242.57 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "953618cc-d4f1-43ca-81cb-79a808b689cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.146 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K0"
+		(shape bidirectional)
+		(at 242.57 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac141807-b1ae-459d-9e74-41b8e488902c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.146 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K00"
+		(shape output)
+		(at 36.83 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1be75f9-3b42-48fc-bdeb-939283bbb346")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.1558 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P4"
+		(shape input)
+		(at 212.09 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0a837d6-bf92-4840-a483-783a76a0dcbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.6253 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K02"
+		(shape output)
+		(at 82.55 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2892510-4cde-4557-bcb7-1f44668d4b3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.8758 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K04"
+		(shape output)
+		(at 129.54 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cba051a3-1c12-4fbd-a6c3-4f705e1cd319")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.8658 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K20"
+		(shape output)
+		(at 36.83 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d307c6f8-6867-42a4-81d0-7a0b2eee6865")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.1558 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K14"
+		(shape output)
+		(at 129.54 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6ef7301-8f12-4f93-ab9c-381e45d70c2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.8658 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K4"
+		(shape bidirectional)
+		(at 242.57 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2d0180a-f140-464a-a054-1a2ad7ce6ce1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.146 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K10"
+		(shape output)
+		(at 36.83 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eda4edc3-62f9-4e2f-a6c7-261f76b95d04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.1558 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2"
+		(shape input)
+		(at 212.09 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4e6966e-a675-42a4-aebf-05afd48b826e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.6253 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K12"
+		(shape output)
+		(at 82.55 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6b84997-7352-4fc2-b760-e36e2389eae0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.8758 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OE"
+		(shape input)
+		(at 242.57 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f855de0e-7158-4fc2-9007-623243ac082f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.0347 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 110.49 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0443fc2c-dcf0-4a9f-96a3-e316ca91a34b")
+		(property "Reference" "K12"
+			(at 113.665 68.58 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 113.665 71.12 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "bfd092d6-4598-4e1d-b8ed-18ab69b072ea")
+		)
+		(pin "P$2"
+			(uuid "ef8c86f7-b39f-49bd-9d62-abc7569e9a6e")
+		)
+		(pin "P$3"
+			(uuid "89ee2b77-726a-4f35-957b-e4dbe5e5b99c")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "086f45a0-4cbc-44e1-8d36-ee10ea30e283")
+		(property "Reference" "#PWR036"
+			(at 212.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "821cc1c9-d8db-4a35-982d-b2ac88e978b1")
+		)
+		(instances
+			(project ""
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 87.63 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10c3ce28-e480-4958-8f9a-aca55db51490")
+		(property "Reference" "K10"
+			(at 90.805 68.58 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 90.805 71.12 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 87.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "8d537e99-2235-4803-94ec-22f127824916")
+		)
+		(pin "P$2"
+			(uuid "4b567288-7e0e-48cf-a378-4216ba0f1666")
+		)
+		(pin "P$3"
+			(uuid "64cbe876-b1ef-41a1-a156-11b787402fb7")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 110.49 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "182ebad3-2090-4c89-964c-993fae4a930a")
+		(property "Reference" "K11"
+			(at 113.665 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 113.665 60.96 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "5ec6d639-9b14-426d-8b54-b317a9f89a93")
+		)
+		(pin "P$3"
+			(uuid "1f60d007-371a-4fad-ada7-f92c7858b039")
+		)
+		(pin "P$1"
+			(uuid "74ff5de2-9768-4121-9ac6-1d86d254125e")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 134.62 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "204a6c0c-1241-44fe-ab9d-8378608644dd")
+		(property "Reference" "K23"
+			(at 137.795 81.28 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 137.795 83.82 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "660a09ef-c394-448a-ac27-a31119c72df5")
+		)
+		(pin "P$3"
+			(uuid "da77c94e-d8f6-4bf1-929b-945b348820ae")
+		)
+		(pin "P$1"
+			(uuid "5ed361d2-2233-40a6-b0ad-6b2ecb74b574")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 41.91 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "210ff6a7-59f1-4b9a-ba81-0985f2b97a95")
+		(property "Reference" "K25"
+			(at 45.085 104.14 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 45.085 106.68 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 41.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "00f46cec-2680-45d4-936a-53b79316d93d")
+		)
+		(pin "P$3"
+			(uuid "4ea7d920-b713-4325-906f-a761f4fb99fb")
+		)
+		(pin "P$1"
+			(uuid "7796151b-eb58-4255-a4bc-a72e99337039")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 41.91 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "260a1c7a-1378-4f58-aa0c-1d52a375740c")
+		(property "Reference" "K5"
+			(at 45.085 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 45.085 60.96 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "cd0e5437-8697-4315-83e0-8e366bc38ed4")
+		)
+		(pin "P$3"
+			(uuid "7963a372-92cc-4673-a654-d95326dcf409")
+		)
+		(pin "P$1"
+			(uuid "d7588c36-b0a6-4a4c-8806-69263edec782")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 134.62 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29d8f744-ba30-49c5-962a-f050414d9872")
+		(property "Reference" "K33"
+			(at 137.795 104.14 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 137.795 106.68 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "79e6f8f4-eead-4d95-81cf-12a434443e02")
+		)
+		(pin "P$3"
+			(uuid "81648797-374a-43f7-a9ad-8964a33a58f7")
+		)
+		(pin "P$1"
+			(uuid "87740b2f-1819-4c53-b8da-fd88e2fbe954")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 41.91 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e4c685e-29ab-48dd-a8e9-3aedfe0fc6a5")
+		(property "Reference" "K36"
+			(at 45.085 137.16 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 45.085 139.7 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 41.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "9b6c6397-638c-4f5e-9cd8-1b6f5b2783bd")
+		)
+		(pin "P$2"
+			(uuid "145a7f72-9dab-4e6a-a53f-24776a80e4a1")
+		)
+		(pin "P$3"
+			(uuid "c57c9bfd-8fb7-4e9f-9895-1b467cad8765")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 87.63 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "611632ab-60d2-497f-88ae-811a66ff9428")
+		(property "Reference" "K20"
+			(at 90.805 91.44 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 90.805 93.98 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "83fcb744-8693-43a8-a2ba-ed4dea58e2cc")
+		)
+		(pin "P$2"
+			(uuid "fa9eecc7-313e-43c0-952f-32db091373f5")
+		)
+		(pin "P$3"
+			(uuid "b6279ded-8019-4215-9f46-58dfc534e94e")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 64.77 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61bae3ca-e753-4128-bbbd-e798eac34386")
+		(property "Reference" "K28"
+			(at 67.945 114.3 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 67.945 116.84 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 64.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "7d1350c8-e2d6-4ec8-8ab2-b58eeebcc5e1")
+		)
+		(pin "P$2"
+			(uuid "950da677-5d81-4cd0-a860-730da9e4471b")
+		)
+		(pin "P$3"
+			(uuid "d900b8f7-8c7f-4be6-82f3-6b97fbbcc485")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 134.62 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64e9362c-d36c-41f0-9d3a-e2248040ec83")
+		(property "Reference" "K13"
+			(at 137.795 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 137.795 60.96 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "fc90b44b-39b8-45c4-be87-6378f40075a9")
+		)
+		(pin "P$3"
+			(uuid "eb048b2e-aec3-4f05-9d12-5411d4860103")
+		)
+		(pin "P$1"
+			(uuid "1f8f14ad-534a-4105-9b1b-f858c002cd46")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 110.49 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "652d7894-4833-45e2-ad97-b5da79ce6787")
+		(property "Reference" "K22"
+			(at 113.665 91.44 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 113.665 93.98 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 110.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "7c18823a-3ac1-4e57-9abb-19f9192acea1")
+		)
+		(pin "P$2"
+			(uuid "c0f84828-b1b0-4479-9eac-30742773c59b")
+		)
+		(pin "P$3"
+			(uuid "ba092024-7434-4055-be21-8c1d7507bf28")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 41.91 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69abcede-6e75-43f1-8ade-b99566c7b815")
+		(property "Reference" "K26"
+			(at 45.085 114.3 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 45.085 116.84 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "b652fc56-7c8c-442e-bd50-6eb92c7f4540")
+		)
+		(pin "P$2"
+			(uuid "231553a6-8a75-4298-afe4-19f13eba917b")
+		)
+		(pin "P$3"
+			(uuid "0016edba-bbb4-4ca2-97d9-b78fc5301e25")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 87.63 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6aaa968a-d93f-4b43-87b1-0190e9a47f82")
+		(property "Reference" "K29"
+			(at 90.805 104.14 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 90.805 106.68 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "3bcdd9f9-a9d9-490f-b8b7-7ae93e521f3a")
+		)
+		(pin "P$3"
+			(uuid "6ee2f6b5-af5f-464f-bebe-6ba9a3395740")
+		)
+		(pin "P$1"
+			(uuid "348def6f-1a27-4208-b66b-90a1a33edd87")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 64.77 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73fec356-3a3b-4f78-9560-5a13b71ef9db")
+		(property "Reference" "K27"
+			(at 67.945 104.14 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 67.945 106.68 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "ac6c0cfa-8a5f-4af7-8e7a-074675380b40")
+		)
+		(pin "P$3"
+			(uuid "e14374c6-29c4-4638-afe6-9abc492ddf4e")
+		)
+		(pin "P$1"
+			(uuid "3a2ec885-34ed-4665-8398-a5a9da776efc")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 64.77 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "841bd295-c1a2-4a65-a0c9-c9cf0ec7c8d9")
+		(property "Reference" "K7"
+			(at 67.945 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 67.945 60.96 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "914186ca-0d51-4953-b029-df9829e831a0")
+		)
+		(pin "P$3"
+			(uuid "14c5b8b8-73bd-425e-9a9f-65ca4a42a303")
+		)
+		(pin "P$1"
+			(uuid "969d6b5f-e172-44ee-96a1-9a5fd3371e0c")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TASTE_GROSS_1")
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 87.63 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85d6a0bd-2dcb-4d5b-978d-2d5852309b32")
+		(property "Reference" "K19"
+			(at 90.805 81.28 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 90.805 83.82 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "b2fe44d7-67f3-4916-953d-b38a1927cb18")
+		)
+		(pin "P$3"
+			(uuid "52d095bc-ab12-4754-8852-5b85e1ef2181")
+		)
+		(pin "P$1"
+			(uuid "ca145c88-d9e2-4b7d-82d3-2bf8249389a1")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 110.49 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8768d38a-16ae-4d43-9c87-88d09a108ad9")
+		(property "Reference" "K31"
+			(at 113.665 104.14 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 113.665 106.68 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 110.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "88b841d2-da34-4d6f-ac09-1901b828cc92")
+		)
+		(pin "P$3"
+			(uuid "7992553b-aa00-4aa4-9d5e-21cfdf317000")
+		)
+		(pin "P$1"
+			(uuid "74b2e6ce-80e8-420e-818e-b71ad9df4c0e")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74HC541D:74HC541D")
+		(at 212.09 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c3cf27b-d21f-40db-a28b-4250c4461844")
+		(property "Reference" "IC9"
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC541D"
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P1030X250-20N"
+			(at 233.68 173.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/74HC541D_datasheet_en_20201117.pdf?did=37230&prodName=74HC541D"
+			(at 233.68 273.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buffers & Line Drivers Pb-F CMOS LOGIC IC SERIES SOIC14 Inverter Gate"
+			(at 212.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.5"
+			(at 233.68 473.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 233.68 573.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74HC541D"
+			(at 233.68 673.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-74HC541D"
+			(at 233.68 773.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/74HC541D?qs=7EBvPakHacWokHt5eISKKA%3D%3D"
+			(at 233.68 873.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "74HC541D"
+			(at 233.68 973.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74hc541d/toshiba?region=nac"
+			(at 233.68 1073.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0122a2a7-9bb8-4db4-a66c-219f27aaa61e")
+		)
+		(pin "3"
+			(uuid "fd97f8b6-93ff-4850-8103-b88b7a3d1daf")
+		)
+		(pin "8"
+			(uuid "e99d9689-9d50-4702-b707-1dad23051065")
+		)
+		(pin "6"
+			(uuid "3b70e882-3af0-4166-90d2-683169d72354")
+		)
+		(pin "11"
+			(uuid "a34aaaa7-318e-4926-9d67-d22ff79fbf69")
+		)
+		(pin "17"
+			(uuid "910312b3-55b4-4874-a4d9-7f275e6451b3")
+		)
+		(pin "20"
+			(uuid "1d6dc06e-3fad-47e3-8278-204c58f3ceb5")
+		)
+		(pin "9"
+			(uuid "3ecc9bc7-0c14-4a0e-a545-3ac705743367")
+		)
+		(pin "14"
+			(uuid "27de891a-c04e-4d3f-bd7f-2b00032cba22")
+		)
+		(pin "18"
+			(uuid "4ab4c443-39a9-4d4d-85fc-8dcdbf51a588")
+		)
+		(pin "15"
+			(uuid "06841c95-4efb-48c4-93ea-f997c82ef23d")
+		)
+		(pin "19"
+			(uuid "b64cc7b5-05d4-4dbc-afd4-de75f36afb8e")
+		)
+		(pin "5"
+			(uuid "16e4a6af-707d-4a99-80c0-5d8174fd7e78")
+		)
+		(pin "16"
+			(uuid "9c8e6e19-c829-4fb7-a86c-751900377626")
+		)
+		(pin "12"
+			(uuid "b9a3c1d2-721d-4063-80b5-3b150d1907c7")
+		)
+		(pin "13"
+			(uuid "420a737f-9ca4-4bd5-aa6e-acb19868fe47")
+		)
+		(pin "4"
+			(uuid "9fde0a41-23ec-43da-9b76-45d0a7a0b834")
+		)
+		(pin "10"
+			(uuid "276972c3-3f72-41cb-893d-553ebcc1af1e")
+		)
+		(pin "7"
+			(uuid "2738d063-eef3-431d-86a9-996acf5699cd")
+		)
+		(pin "2"
+			(uuid "b00ee8e0-3b00-4d89-a879-6343dcfc7634")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "IC9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 110.49 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bc63d7f-cfcf-4685-a8c1-b869a4825a49")
+		(property "Reference" "K32"
+			(at 113.665 114.3 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 113.665 116.84 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "177b03d3-ac44-4991-b910-62d7434c850e")
+		)
+		(pin "P$2"
+			(uuid "08630b48-719b-424a-83fb-ee911237fc7f")
+		)
+		(pin "P$3"
+			(uuid "6cf24944-d708-4bb0-9f53-ef096eea67e9")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 41.91 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c01fdf6-f062-464d-8d91-ad0b6d73ff8f")
+		(property "Reference" "K35"
+			(at 45.085 127 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 45.085 129.54 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 41.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "f834257d-b962-4dae-90c6-b85875dd5c8c")
+		)
+		(pin "P$3"
+			(uuid "40dd586e-0add-451b-a1c2-0efd966dbcb7")
+		)
+		(pin "P$1"
+			(uuid "43eaebf1-67cb-4949-a786-4564731795e2")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 41.91 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1ac155e-e2d4-4c93-8a32-5f01eef06e2b")
+		(property "Reference" "K15"
+			(at 45.085 81.28 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 45.085 83.82 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "596059e6-b003-4115-a56d-b071c79fe950")
+		)
+		(pin "P$3"
+			(uuid "c8fbdef9-5f97-4920-b6aa-13f2d059c0cd")
+		)
+		(pin "P$1"
+			(uuid "81e21e99-0054-48d2-816e-61b4d06738fd")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 87.63 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0c3a16e-328e-4c21-ba1b-22805c25331c")
+		(property "Reference" "K30"
+			(at 90.805 114.3 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 90.805 116.84 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "c0e63a78-7462-4b82-b8d4-85ba9f6c9cf1")
+		)
+		(pin "P$2"
+			(uuid "2f43d408-9acf-4e04-a921-20ac59e3c0e8")
+		)
+		(pin "P$3"
+			(uuid "ac872974-52f3-4e29-aa31-3e0bcde25a64")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 110.49 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b12671d8-862e-4b30-9862-a9bda34ce51b")
+		(property "Reference" "K21"
+			(at 113.665 81.28 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 113.665 83.82 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 110.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "1d77497f-58bf-44e5-b11a-6b6c1699975c")
+		)
+		(pin "P$3"
+			(uuid "12a89768-1574-4273-a352-988596d763a7")
+		)
+		(pin "P$1"
+			(uuid "262bf558-cab6-4240-b24d-e595e6bf4d11")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 64.77 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1acf04f-653a-4c75-bf9a-7a58716e7107")
+		(property "Reference" "K17"
+			(at 67.945 81.28 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 67.945 83.82 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 64.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "340ce9ef-b855-4d87-aac5-a450e68b3106")
+		)
+		(pin "P$3"
+			(uuid "95cf13f4-cdd0-4b69-9ab0-97c906f78b4d")
+		)
+		(pin "P$1"
+			(uuid "40076162-8631-4421-8b33-d901ff6e84ad")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 41.91 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2364f7a-6df1-48a5-9bb2-d970378ea188")
+		(property "Reference" "K16"
+			(at 45.085 91.44 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 45.085 93.98 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 41.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "c302f6cb-7bc1-4638-ae99-acbbf0d77d2a")
+		)
+		(pin "P$2"
+			(uuid "7daafb12-7162-415f-adb4-3fd72600ef2d")
+		)
+		(pin "P$3"
+			(uuid "93617a8e-4e32-44af-9f8c-e3151ca2c559")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 41.91 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbed2294-20a1-491b-82b5-a69ea5aaf83d")
+		(property "Reference" "K6"
+			(at 45.085 68.58 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 45.085 71.12 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "e8ea698f-ffd4-4ac0-841f-a62bb21475bf")
+		)
+		(pin "P$2"
+			(uuid "3720bf3d-eef1-49fc-87d7-ed3912bea1bf")
+		)
+		(pin "P$3"
+			(uuid "386d158c-4b8c-4582-8190-711236963556")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 134.62 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf47f0d0-3db8-4e20-b419-f73085424c16")
+		(property "Reference" "K34"
+			(at 137.795 114.3 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 137.795 116.84 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "aa53b5c3-662d-4be1-be27-069de5537472")
+		)
+		(pin "P$2"
+			(uuid "dce244d8-5442-463a-a959-e8979d32f99d")
+		)
+		(pin "P$3"
+			(uuid "eaf321c9-80aa-428b-b95c-703b1d0c9645")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 64.77 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d362cd46-a40d-4144-9115-4a152a4066fa")
+		(property "Reference" "K8"
+			(at 67.945 68.58 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 67.945 71.12 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "3902e37b-2735-4900-8ce4-6a538fae7363")
+		)
+		(pin "P$2"
+			(uuid "5c5ca2d3-3132-4278-9f43-2ccc303e446f")
+		)
+		(pin "P$3"
+			(uuid "efc73ee0-4ce6-4289-a658-33667802a51e")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 64.77 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2737398-1bbb-45ef-a9d7-f38b96c148cd")
+		(property "Reference" "K18"
+			(at 67.945 91.44 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 67.945 93.98 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "099024e9-6852-42e3-8cf8-1805e672c51e")
+		)
+		(pin "P$2"
+			(uuid "cbf95b2a-5838-4f9d-a228-69600f6d8b7a")
+		)
+		(pin "P$3"
+			(uuid "1da563c8-fc11-4024-a1e0-eafc78558e08")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 134.62 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebb38596-0bac-4cfc-ba24-3bf8bdfee200")
+		(property "Reference" "K24"
+			(at 137.795 91.44 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 137.795 93.98 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "c7b0324e-da21-474a-8b8b-908e05d361ac")
+		)
+		(pin "P$2"
+			(uuid "f2ba027e-aa0a-4f27-959a-9460a6533cdb")
+		)
+		(pin "P$3"
+			(uuid "a27c1e97-c25b-4533-8409-1640f6abb995")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 87.63 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efe9b446-6b34-479e-af1f-8b226c810691")
+		(property "Reference" "K9"
+			(at 90.805 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 90.805 60.96 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "37f9fafc-ddd8-46d7-9933-b9647456b087")
+		)
+		(pin "P$3"
+			(uuid "029a1373-898d-4ea7-9283-dd2e143af11d")
+		)
+		(pin "P$1"
+			(uuid "b18f8429-5930-4dcb-95e5-0ffab2004ec3")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Beispiel_Schaltmatte_LED-eagle-import:TASTE_GROSS")
+		(at 134.62 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f22bd96f-0b64-448e-8608-8948abfdc50e")
+		(property "Reference" "K14"
+			(at 137.795 68.58 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TASTE_GROSS"
+			(at 137.795 71.12 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Beispiel_Schaltmatte_LED:TASTE_GROSS"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "e29ee682-383c-4dd9-9cb0-5e670cd7c327")
+		)
+		(pin "P$2"
+			(uuid "1e8e4def-129e-4496-ad6d-fa06951a9f71")
+		)
+		(pin "P$3"
+			(uuid "bd405b96-e944-437c-bd9a-75c25b164f26")
+		)
+		(instances
+			(project "sdr"
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "K14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 240.03 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feaa53ec-0eff-49d5-8d0f-543640d51599")
+		(property "Reference" "#PWR077"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 240.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 240.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17b2e758-2344-4530-a62f-d6b04a6a6ab7")
+		)
+		(instances
+			(project ""
+				(path "/e4d3289e-0ccf-4dc8-988c-0c08b099df28/a8a8d17d-64dc-44be-b66f-ec89b0dc62eb"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

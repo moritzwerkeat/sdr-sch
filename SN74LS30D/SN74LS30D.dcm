@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LS30D
+D 8-input positive-NAND gates
+K
+F http://www.ti.com/lit/gpn/sn74ls30
+$ENDCMP
+#
+#End Doc Library

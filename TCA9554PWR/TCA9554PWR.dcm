@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCA9554PWR
+D Remote 8-Bit I2C and SMBus I/O Expander
+K
+F http://www.ti.com/lit/gpn/tca9554
+$ENDCMP
+#
+#End Doc Library

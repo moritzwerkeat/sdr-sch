@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PEC11S-9215F-S0015
+D Encoders 12 MM SMD INCREMENTAL ENCODER
+K
+F https://www.bourns.com/docs/product-datasheets/PEC11S.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ETA6096
+D ISL9014A is a high performance dual LDO capable of sourcing 300mA current from both outputs. The device has a low standby current and high-PSRR and is stable with output capacitance of 1F to 10F with ESR of up to 200m. A reference bypass pin allows an external capacitor for adjusting a noise filter for low noise and high PSRR applications. The quiescent current is typically only 45A with both LDOs enabled and active. Separate enable pins control each individual LDO output. When both enable pins are low,
+K
+F https://www.renesas.com/en-us/www/doc/datasheet/isl9014a.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTRBR37G-4R4S-0125-0-2-R18
+D Standard LEDs - SMD RGB LED
+K
+F https://dammedia.osram.info/media/resource/hires/osram-dam-6751107/LTRB%20R37G_EN.pdf
+$ENDCMP
+#
+#End Doc Library

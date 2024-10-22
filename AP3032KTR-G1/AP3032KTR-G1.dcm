@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP3032KTR-G1
+D DiodesZetex AP3032KTR-G1, Step Up DC-DC Converter, Adjustable, Maximum of 38 V, 6-Pin SOT-23
+K
+F https://www.diodes.com/assets/Datasheets/AP3032.pdf
+$ENDCMP
+#
+#End Doc Library

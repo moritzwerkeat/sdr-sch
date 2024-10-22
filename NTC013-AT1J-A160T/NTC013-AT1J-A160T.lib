@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NTC013-AT1J-A160T
+#/16249895/1484194/2.50/4/3/Switch
+DEF NTC013-AT1J-A160T S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "NTC013-AT1J-A160T" 1050 200 50 H V L CNN
+F2 "NTC013AT1JA160T" 1050 100 50 H I L CNN
+F3 "https://www.nh-technology.de/T-Mec/PDF/Series_TC/NTC013.pdf" 1050 0 50 H I L CNN
+F4 "compact size 4.20 x 3.20 x 2.50mm Mount type SMT, Operating Force 1 160(+50/-50)gf, J Terminal Type." 1050 -100 50 H I L CNN "Description"
+F5 "2.7" 1050 -200 50 H I L CNN "Height"
+F6 "N&H Technology" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "NTC013-AT1J-A160T" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 1200 0 200 L 50 50 0 0 P
+X COM_1 3 0 -100 200 R 50 50 0 0 P
+X COM_2 4 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

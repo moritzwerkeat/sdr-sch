@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC541D
+D Buffers & Line Drivers Pb-F CMOS LOGIC IC SERIES SOIC14 Inverter Gate
+K
+F https://toshiba.semicon-storage.com/info/74HC541D_datasheet_en_20201117.pdf?did=37230&prodName=74HC541D
+$ENDCMP
+#
+#End Doc Library

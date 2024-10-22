@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ETA6096
+#/5494641/1484194/2.50/11/2/Integrated Circuit
+DEF ETA6096 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "ETA6096" 1050 200 50 H V L CNN
+F2 "SON50P300X300X90-11N" 1050 100 50 H I L CNN
+F3 "https://www.renesas.com/en-us/www/doc/datasheet/isl9014a.pdf" 1050 0 50 H I L CNN
+F4 "ISL9014A is a high performance dual LDO capable of sourcing 300mA current from both outputs. The device has a low standby current and high-PSRR and is stable with output capacitance of 1F to 10F with ESR of up to 200m. A reference bypass pin allows an external capacitor for adjusting a noise filter for low noise and high PSRR applications. The quiescent current is typically only 45A with both LDOs enabled and active. Separate enable pins control each individual LDO output. When both enable pins are low," 1050 -100 50 H I L CNN "Description"
+F5 "0.9" 1050 -200 50 H I L CNN "Height"
+F6 "Renesas Electronics" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ETA6096" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "968-ETA6096" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Renesas-Intersil/ETA6096?qs=dAsayXGOMrvW7ddkS2oVfA%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VIN 1 0 0 200 R 50 50 0 0 P
+X EN1 2 0 -100 200 R 50 50 0 0 P
+X EN2 3 0 -200 200 R 50 50 0 0 P
+X CBYP 4 0 -300 200 R 50 50 0 0 P
+X NC_1 5 0 -400 200 R 50 50 0 0 P
+X EP 11 600 -900 200 U 50 50 0 0 P
+X VO1 10 1200 0 200 L 50 50 0 0 P
+X VO2 9 1200 -100 200 L 50 50 0 0 P
+X NC_3 8 1200 -200 200 L 50 50 0 0 P
+X NC_2 7 1200 -300 200 L 50 50 0 0 P
+X GND 6 1200 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NTC013-AT1J-A160T
+D compact size 4.20 x 3.20 x 2.50mm Mount type SMT, Operating Force 1 160(+50/-50)gf, J Terminal Type.
+K
+F https://www.nh-technology.de/T-Mec/PDF/Series_TC/NTC013.pdf
+$ENDCMP
+#
+#End Doc Library

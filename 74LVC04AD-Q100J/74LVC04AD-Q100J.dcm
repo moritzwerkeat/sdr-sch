@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC04AD-Q100J
+D 74LVC04A-Q100 - Hex inverter@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74LVC04A_Q100.pdf
+$ENDCMP
+#
+#End Doc Library
